@@ -29,6 +29,20 @@ function generatePassword(){
   var symbol = window.confirm("would you like a special symbol?")
 /* confirm the use of numbers */
   var num = window.confirm("would you like numbers?")
+
+/* check for password criteria */
+if(lower===false && symbol===false && upper===false && num===false) {
+  alert("please try again no set criteria");
+  };
+/* check that length of password meets criteria */
+if(passlength<8 || passlength>128 || !passlength) {
+  alert("please try again password length 8-128");
+  };
  
+/* generate random character from array */
+function randomchar(a){
+  var i = Math.floor(Math.random()*a.length);
+  return a[i];
+}
 
 };
