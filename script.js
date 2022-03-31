@@ -43,6 +43,22 @@ if(passlength<8 || passlength>128 || !passlength) {
 function randomchar(a){
   var i = Math.floor(Math.random()*a.length);
   return a[i];
+}/* putting random characters into single array */
+var pass = [];
+for (var i = 0; i < passlength;) {
+/* picking lowercase letter from array */
+if (lower ===true && i<passlength){
+var a=lowerletters;
+var newArr = randomchar(a);
+  pass.push(newArr);
+  i++;
+}
+/* picking uppercase letter from array */
+if(upper===true){
+var a=upperletters;
+var newArr = randomchar(a);
+  pass.push(newArr);
+  i++;
 }
 
 };
