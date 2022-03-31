@@ -24,12 +24,23 @@ Once installations are complete the file is ready to be opened in the browser. W
 A few notes when using the application, if number is not within in the lower and upper limit it will not generate a password. Instead it will alert the user to try again, and if none of the criteria are chosen then an alert will also ask the user to try again. At least one specific criteria must be choosen in order for the program to run. 
 
 ### Link
-https://rich-f-p.github.io/my-portfolio/
+https://rich-f-p.github.io/random-password-gen/
 
 The following is what the application looks like:
-<img src="./assets/images/" alt="project-image"/>
+<img src="./assets/Animation.gif" alt="project-image"/>
 
 #### Code
 * HTML
 * CSS
 * Javascript
+
+```
+function randomchar(a){
+  var i = Math.floor(Math.random()*a.length);
+  return a[i];
+}
+```
+```
+pass = pass.sort(function(a, b){return 0.5 - Math.random()});
+```
+The above code played a key role in randomizing the final password. Function randomchar would extract parts from the array that would be included in the password. Pass.sort was able to provide a random sort to get rid of a reccuring pattern within the password.  
