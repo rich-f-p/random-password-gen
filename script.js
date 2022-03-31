@@ -75,5 +75,10 @@ if(symbol===true){
     i++
   }
 }
+/* random sort of array */
+pass = pass.sort(function(a, b){return 0.5 - Math.random()});
+/* combine array into single string */
+pass = pass.join('');
 
+return pass;
 };
