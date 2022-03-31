@@ -60,5 +60,20 @@ var newArr = randomchar(a);
   pass.push(newArr);
   i++;
 }
+/* picking symbol from array */
+if(symbol===true){
+  var a=special;
+  var newArr = randomchar(a);
+    pass.push(newArr);
+    i++
+  }
+/* picking number from array */
+  if(num ===true){
+  var a = ranNum;
+  var newArr = randomchar(a);
+    pass.push(newArr);
+    i++
+  }
+}
 
 };
