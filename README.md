@@ -22,3 +22,14 @@ At this point in time changes can be made if desired. For example, new character
 Once installations are complete the file is ready to be opened in the browser. When that is done start by clicking the generate password button. This will then lead to a prompt asking for the length of the password. When given a input it will move on to ask questions for desired criteria for the password. For yes click "ok" and for no click "cancel".Finally the password will be generated and viewable with in the text container. 
 
 A few notes when using the application, if number is not within in the lower and upper limit it will not generate a password. Instead it will alert the user to try again, and if none of the criteria are chosen then an alert will also ask the user to try again. At least one specific criteria must be choosen in order for the program to run. 
+
+### Link
+https://rich-f-p.github.io/my-portfolio/
+
+The following is what the application looks like:
+<img src="./assets/images/" alt="project-image"/>
+
+#### Code
+* HTML
+* CSS
+* Javascript
