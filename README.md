@@ -33,6 +33,7 @@ The following is what the application looks like:
 * HTML
 * CSS
 * Javascript
+* Github
 
 ```
 function randomchar(a){
@@ -44,3 +45,7 @@ function randomchar(a){
 pass = pass.sort(function(a, b){return 0.5 - Math.random()});
 ```
 The above code played a key role in randomizing the final password. Function randomchar would extract parts from the array that would be included in the password. Pass.sort was able to provide a random sort to get rid of a reccuring pattern within the password.  
+
+#### Author
+Richard Ferry
+* Github: https://github.com/rich-f-p
