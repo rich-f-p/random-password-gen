@@ -27,7 +27,7 @@ A few notes when using the application, if number is not within in the lower and
 https://rich-f-p.github.io/random-password-gen/
 
 The following is what the application looks like:
-<img src="./assets/Animation.gif" alt="project-image"/>
+<img src="./assets/images/Animation.gif" alt="project-image"/>
 
 #### Code
 * HTML

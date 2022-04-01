@@ -54,21 +54,21 @@ var newArr = randomchar(a);
   i++;
 }
 /* picking uppercase letter from array */
-if(upper===true){
+if(upper===true && i<passlength){
 var a=upperletters;
 var newArr = randomchar(a);
   pass.push(newArr);
   i++;
 }
 /* picking symbol from array */
-if(symbol===true){
+if(symbol===true && i<passlength){
   var a=special;
   var newArr = randomchar(a);
     pass.push(newArr);
     i++
   }
 /* picking number from array */
-  if(num ===true){
+  if(num ===true && i<passlength){
   var a = ranNum;
   var newArr = randomchar(a);
     pass.push(newArr);
