@@ -1,4 +1,4 @@
-# random-password-gen
+# random-password-gen   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 The following is a random password generato with the ability to ask the user for a set criteria. This consist of allowing the user to choose password length of 8-128 characters, with the choice of uppercase, lowercase, numbers, and symbols. With that, at least one of every chosen character type will be present in the random password.
@@ -49,3 +49,5 @@ The above code played a key role in randomizing the final password. Function ran
 #### Author
 Richard Ferry
 * Github: https://github.com/rich-f-p
+### License
+* [License: MIT](https://opensource.org/licenses/MIT) : click to learn more
